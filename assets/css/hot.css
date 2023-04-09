@@ -1,0 +1,19 @@
+:root {
+	--bg-color: #282936;
+	--secondary-color: #4d4f68;
+	--text-color: #e9e9f4;
+	--padding: 8px;
+	--border: 8px;
+}
+
+body {
+	color: var(--text-color);
+	background: var(--bg-color);
+
+	font-family: 'Hyperlegible', sans-serif;
+	font-size: 16pt;
+
+	image-rendering: crisp-edges;
+
+	transition: 0.2s;
+}

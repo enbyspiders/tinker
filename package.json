@@ -6,18 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/voec/EleventyTemplate.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/voec/EleventyTemplate/issues"
-  },
-  "homepage": "https://github.com/voec/EleventyTemplate#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^2.0.1"
   }
 }

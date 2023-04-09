@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-		<meta name="theme-color" content=""/>
-        <meta name="description" content="{{ description or metadata.description }}"/>
-        <meta name="author" content=""/>
+<head>
 
-		<title>{{ title or metadata.title }}</title>
+	<!-- Basic Page Needs -->
+	<meta charset="utf-8">
+	<title>{{ title or metadata.title }}</title>
+	<meta name="description" content="{{ description or metadata.description }}">
+	<meta name="author" content="{{ author }}">
 
-		<meta http-equiv="cleartype" content="on"/>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" type="text/css" href="{{ '/assets/css/hot.css' | url }}" />
-		
-		<link rel="shortcut icon" type="image/png" href="{{ '/assets/img/favicon.png' | url }}"/>
-
-	</head>
-	<body>
+	<!-- FONT  -->
+	<meta http-equiv="cleartype" content="on" />
+	<link rel="stylesheet" type="text/css" href="{{ '/assets/font/hyperlegible.css' | url }}">
 	
-		{{ content | safe }}
-		
-		<footer>
-			Footer here!
-		</footer>
-        
-	</body>
+	<!-- CSS  -->
+	<link rel="stylesheet" type="text/css" href="{{ '/assets/css/barebones/normalize.css' | url }}">
+	<link rel="stylesheet" type="text/css" href="{{ '/assets/css/barebones/barebones.css' | url }}">
+	<link rel="stylesheet" type="text/css" href="{{ '/assets/css/hot.css' | url }}">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="{{ '/assets/img/favicon.png' | url }}" />
+
+</head>
+
+<body>
+
+	<!-- Primary Page Layout -->
+	<div class="grid-container halves">
+		<div>
+			{{ content | safe }}
+		</div>
+	</div>
+	</div>
+
+	<footer>
+		Footer here!
+	</footer>
+
+	<!-- End Document -->
+</body>
+
 </html>
