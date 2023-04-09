@@ -28,16 +28,20 @@
 
 <body>
 
+	<header>
+		<div class="title"><a href="{{ '/' | url }}">🔮 Tinker</a></div>
+		<div class="menu">Pocket reference for DIY electronics tinkering</div>
+	</header>
+
 	<!-- Primary Page Layout -->
-	<div class="grid-container halves">
+	<div class="content">
 		<div>
 			{{ content | safe }}
 		</div>
 	</div>
-	</div>
 
 	<footer>
-		Footer here!
+		Work in progress 🔧 <a href="https://github.com/mistress-of-loft-and-spire/tinker"><img class="icon" src="{{ '/assets/img/github-mark-white.svg' | url }}"> GitHub</a>
 	</footer>
 
 	<!-- End Document -->

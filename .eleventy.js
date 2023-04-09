@@ -1,4 +1,6 @@
 module.exports = function(eleventyConfig) {
+
+	eleventyConfig.addPassthroughCopy('schematics/**/*.{jpg,jpeg,png,gif}');
   
     eleventyConfig.addPassthroughCopy("assets/");
 	

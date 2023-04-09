@@ -1,5 +1,6 @@
 {
-  "title": "Pocket",
-  "url": "",
-  "description": "Quick reference for DIY electronics tinkering "
+  "title": "Tinker",
+  "url": "http://localhost:8080/",
+  "author": "Mistress",
+  "description": "A pocket reference for DIY electronics tinkering"
 }
