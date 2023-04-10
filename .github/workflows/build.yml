@@ -1,5 +1,5 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# Hacked together by a spider
+name: Build Eleventy and Deploy to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -32,6 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         
+      # Setup node and build eleventy
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
@@ -39,12 +40,13 @@ jobs:
       - run: npm ci
       - run: npm run build
       
+      # Deploy to pages
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Upload _site folder
+          # Upload output of build process
           path: '_site/'
       - name: Deploy to GitHub Pages
         id: deployment
