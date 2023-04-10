@@ -9,7 +9,7 @@ layout: layouts/base
 	{%- for post in collections.tools -%}
 	<a href="{{ post.url | url }}">
 		<div class="card">
-			<div class="card-bg" style="background-image: url('{{ url }}{{ post.url | url }}photo.png')">
+			<div class="card-bg" style="background-image: url('{{ post.url | url }}photo.png')">
 				<div class="card-text">{{ post.data.title }}</div>
 			</div>
 		</div>
@@ -20,6 +20,6 @@ layout: layouts/base
 <div class="list-header">🗃️ Schematics</div>
 <div class="list">
 	{%- for post in collections.schematics -%}
-		<a href="{{ post.url | url }}"><div class="card"><div class="card-bg" style="background-image: url('{{ url }}{{ post.url | url }}photo.png')"><div class="card-text">{{ post.data.title }}</div></div></div></a>
+		<a href="{{ post.url | url }}"><div class="card"><div class="card-bg" style="background-image: url('{{ post.url | url }}photo.png')"><div class="card-text">{{ post.data.title }}</div></div></div></a>
 	{%- endfor -%}
 </div>
