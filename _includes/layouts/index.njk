@@ -17,7 +17,7 @@ layout: layouts/base
 	{%- endfor -%}
 </div>
 
-<div class="list-header">🗃️ Schematics</div>
+<div class="list-header">🗃️ Library</div>
 <div class="list">
 	{%- for post in collections.schematics -%}
 		<a href="{{ post.url | url }}"><div class="card"><div class="card-bg" style="background-image: url('{{ post.url | url }}photo.png')"><div class="card-text">{{ post.data.title }}</div></div></div></a>
