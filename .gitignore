@@ -12,6 +12,8 @@ api-docs/
 .vscode
 .idea
 
+package-lock.json
+
 # Ignore eleventy output when doing manual tests
 _site/
 
