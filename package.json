@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "env NODE_ENV=production npx eleventy --pathprefix 'tinker'",
-    "serve": "npx eleventy --serve",
-    "debug": "DEBUG?* npx elventy",
-	"test": "jest"
+    "build": "eleventy --pathprefix tinker",
+    "serve": "eleventy --serve"
   },
   "keywords": [],
   "author": "",
