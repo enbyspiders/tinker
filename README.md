@@ -46,6 +46,15 @@ The Leonardo differs from all preceding boards in that the ATmega32u4 has built-
 
 ### Arduino Mega
 
+|||
+|---|---|
+|Microcontroller|ATmega2560|
+|Digital I/O Pins|54 (of which 15 provide PWM output)|
+|Analog Input Pins|16|
+|Length |	101.52 mm|
+|Width |	53.3 mm|
+|Weight |	37 g|
+
 ![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/1270befb-aeeb-4988-a477-eeb4bf428bee)
 
 ![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/cd71cbd2-9651-4978-9d6a-9835a03e5499)
