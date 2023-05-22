@@ -26,11 +26,15 @@ https://ledcalculator.net/
 
 ### Arduino Nano
 
+[Arduino Docs and Files](https://docs.arduino.cc/hardware/nano)
+
 ![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/1ea123a3-be01-453f-ac08-6e852713c09f)
 
 ![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/cc39b6b5-bf39-4b89-8852-e17c8f5980f1)
 
 ### Arduino Micro
+
+[Arduino Docs and Files](https://docs.arduino.cc/hardware/micro)
 
 ![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/a89ea130-5063-4354-9625-a18e79e18b73)
 
@@ -39,6 +43,8 @@ https://ledcalculator.net/
 ### Arduino Leonardo
 
 The Leonardo differs from all preceding boards in that the ATmega32u4 has built-in USB communication, eliminating the need for a secondary processor. This allows the Leonardo to appear to a connected computer as a mouse and keyboard, in addition to a virtual (CDC) serial / COM port.
+
+[Arduino Docs and Files](https://docs.arduino.cc/hardware/leonardo)
 
 ![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/581121a0-7430-47e4-ab24-78f88302df8b)
 
@@ -55,6 +61,11 @@ The Leonardo differs from all preceding boards in that the ATmega32u4 has built-
 |Width |	53.3 mm|
 |Weight |	37 g|
 
+[Arduino Docs and Files](https://docs.arduino.cc/hardware/mega-2560)
+
 ![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/1270befb-aeeb-4988-a477-eeb4bf428bee)
 
 ![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/cd71cbd2-9651-4978-9d6a-9835a03e5499)
+
+![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/7d7bed28-1d80-451b-affc-a82f96744104)
+
