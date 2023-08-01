@@ -5,6 +5,7 @@ My pocket reference for DIY electronics tinkering (wip)
   * [🔥 Resistor Color Code Calculator](#---resistor-color-code-calculator)
   * [💡 LED Calculator](#---led-calculator)
 - [Board Schematics](#boards)
+  * [Arduino Uno R3](#arduino-uno-r3)
   * [Arduino Nano](#arduino-nano)
   * [Arduino Micro](#arduino-micro)
   * [Arduino Leonardo](#arduino-leonardo)
@@ -23,6 +24,22 @@ This LED calculator will help you design your LED array and choose the best curr
 https://ledcalculator.net/
 
 ## Boards
+
+### Arduino Uno R3
+
+Microcontroller 	ATmega328P
+Digital I/O Pins 	14 (of which 6 provide PWM output)
+Analog Input Pins 	6
+LED_BUILTIN 	13
+Length 	68.6 mm
+Width 	53.4 mm
+Weight 	25 g
+
+[📚 Arduino Docs and Files](https://docs.arduino.cc/hardware/uno-rev3)
+
+![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/c800df9f-71b7-425b-bb2d-225efae2486c)
+
+![image](https://github.com/mistress-of-loft-and-spire/tinker/assets/2915643/60dc8f0d-ac52-4144-a789-9e01c7933256)
 
 ### Arduino Nano
 
